@@ -2,7 +2,7 @@
 ademhaling = str(input())
 polshart = int(input())
 spierspanning = str(input())
-aspect= str(input()) 
+aspect = str(input())
 reactiePrikkels = str(input())
 
 apgar = [ademhaling, spierspanning, aspect, reactiePrikkels]
@@ -19,7 +19,7 @@ for i in apgar:
       score += 1
     elif i in twee: 
       score += 2
-    elif (i not in nul or i not in een or i not in twee): 
+    elif i not in nul or i not in een or i not in twee:
       ongeldig = True
 
 if polshart == 0:
@@ -28,10 +28,10 @@ elif polshart < 100:
   score += 1
 elif polshart > 100: 
   score += 2
-elif (polshart < 0 or type(polshart) != int()): 
+elif polshart < 0 or type(polshart) != int():
   ongeldig = True
 
-if ongeldig == False:
+if not ongeldig:
     if score < 4: 
       print("alarm")
     else: 
