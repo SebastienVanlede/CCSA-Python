@@ -8,5 +8,3 @@ totaleKostprijs = gekochteStuks * kostprijsPerStuk
 frequentMijlen = int((gekochteStuks / aantalBarcodes)) * aantalMijlen
 
 print("Phillips spendeerde ${:.2f}".format(totaleKostprijs), "voor", frequentMijlen, "frequent flyer mijlen.")
-
-

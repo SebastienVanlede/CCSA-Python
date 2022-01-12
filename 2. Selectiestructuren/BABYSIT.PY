@@ -4,7 +4,7 @@ aankomstMinuut = int(input())
 vertrekUur = int(input()) 
 vertrekMinuut = int(input())
 
-aankomstDecimal = aankomstUur + aankomstMinuut/60.0;
+aankomstDecimal = aankomstUur + aankomstMinuut/60.0
 vertrekDecimal = vertrekUur + vertrekMinuut/60.0
 p1 = 18.0
 p2 = 21.5
@@ -23,4 +23,3 @@ else:
         tijd2 = vertrekDecimal - aankomstDecimal
     totaalVerdiend = 2 * tijd1 + 4 * tijd2
     print(totaalVerdiend)
-

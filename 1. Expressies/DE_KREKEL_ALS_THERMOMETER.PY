@@ -2,4 +2,3 @@
 tjirps = int(input())
 print("temperatuur (Fahrenheit):", 50 + ((tjirps - 40) / 4))
 print("temperatuur (Celsius):", 10 + ((tjirps - 40) / 7))
-

@@ -14,4 +14,3 @@ elif speler1 in gebaren[speler2]:
     print("speler2 wint")
 else:
     print("gelijkspel")
-

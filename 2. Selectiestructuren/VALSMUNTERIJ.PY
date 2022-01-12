@@ -25,4 +25,3 @@ if stand1 == "evenwicht":
   else: 
     posMunt = 9
 print("muntstuk #" + str(posMunt) + " is vervalst")
-

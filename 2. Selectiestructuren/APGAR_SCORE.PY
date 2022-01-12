@@ -38,4 +38,3 @@ if not ongeldig:
       print(score)
 else: 
   print("ongeldige invoer")
-

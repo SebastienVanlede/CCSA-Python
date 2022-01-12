@@ -8,13 +8,13 @@ else:
 draai = str(input())
 controle = True
 
-if(kaartZijde == 'waarde' and kaartWaarde%2 != 0 and draai == 'ja'): 
+if kaartZijde == 'waarde' and kaartWaarde%2 != 0 and draai == 'ja':
   controle = False
-if(kaartZijde == 'waarde' and kaartWaarde%2 == 0 and draai == 'nee'): 
+if kaartZijde == 'waarde' and kaartWaarde%2 == 0 and draai == 'nee':
   controle = False
-if(kaartZijde == 'kleur' and kaartWaarde == 'rood' and draai == 'ja'): 
+if kaartZijde == 'kleur' and kaartWaarde == 'rood' and draai == 'ja':
   controle = False
-if(kaartZijde == 'kleur' and kaartWaarde != 'rood' and draai == 'nee'): 
+if kaartZijde == 'kleur' and kaartWaarde != 'rood' and draai == 'nee':
   controle = False
 
 if draai == 'nee':
@@ -27,4 +27,3 @@ else:
     print(f'Juist: kaarten met {kaartZijde} {kaartWaarde} moeten gedraaid worden.')
   else: 
     print(f'Fout: kaarten met {kaartZijde} {kaartWaarde} moeten niet gedraaid worden.')
-

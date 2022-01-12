@@ -12,4 +12,5 @@ getal10 = int(input())
 
 if getal10 == (getal1 + 2*getal2 + 3*getal3 + 4*getal4 + 5*getal5 + 6*getal6 + 7*getal7 + 8*getal8 + 9*getal9) % 11:
   print("OK")
-else: print("FOUT")
+else:
+  print("FOUT")

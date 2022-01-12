@@ -10,7 +10,7 @@ if discriminant < 0:
   print("geen wortels")
 if discriminant == 0:
     print("een wortel")
-    print(- (b) / (2 * a))
+    print(-b / (2 * a))
 if discriminant > 0:
     res1 = (-b + math.sqrt(discriminant))/ (2 * a)
     res2 = (-b - math.sqrt(discriminant))/ (2 * a)

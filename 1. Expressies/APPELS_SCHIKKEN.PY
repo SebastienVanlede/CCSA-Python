@@ -6,4 +6,3 @@ aantalPaletten = int(aantalKisten//35)
 print(aantalPaletten)
 print(aantalKisten - aantalPaletten * 35)
 print(aantalAppels - aantalKisten * 20)
-
